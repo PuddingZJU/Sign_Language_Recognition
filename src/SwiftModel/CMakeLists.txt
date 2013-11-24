@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8.12)
+project("Sign Language Recognition")
+)
+source_group_by_dir(all_files)
+AUX_SOURCE_DIRECTORY(. SRC_LIST)
