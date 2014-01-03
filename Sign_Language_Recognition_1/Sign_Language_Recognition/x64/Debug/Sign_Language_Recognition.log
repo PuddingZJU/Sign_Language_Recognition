@@ -1,0 +1,76 @@
+﻿生成启动时间为 2014/1/3 22:20:05。
+     1>项目“C:\Users\shihaos\Documents\Visual Studio 2012\Projects\Sign_Language_Recognition\Sign_Language_Recognition\Sign_Language_Recognition.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl\include /I.\GeneratedFiles\Debug /ID:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl\include\QtCore /ID:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl\include\QtGui /ID:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl\include\QtSql /ID:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\MotionData\MotionClip.cpp
+         MotionClip.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\shihaos\Documents\Visual Studio 2012\Projects\Sign_Language_Recognition\x64\Debug\\Sign_Language_Recognition.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.1.1\5.1.1\msvc2012_64_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Sqld.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\shihaos\Documents\Visual Studio 2012\Projects\Sign_Language_Recognition\x64\Debug\Sign_Language_Recognition.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\shihaos\Documents\Visual Studio 2012\Projects\Sign_Language_Recognition\x64\Debug\Sign_Language_Recognition.lib" /MACHINE:X64 x64\Debug\HMM.obj
+         x64\Debug\k_mean.obj
+         x64\Debug\mem.obj
+         x64\Debug\bandmat.obj
+         x64\Debug\cholesky.obj
+         x64\Debug\evalue.obj
+         x64\Debug\fft.obj
+         x64\Debug\hholder.obj
+         x64\Debug\jacobi.obj
+         x64\Debug\myexcept.obj
+         x64\Debug\newfft.obj
+         x64\Debug\newmat1.obj
+         x64\Debug\newmat2.obj
+         x64\Debug\newmat3.obj
+         x64\Debug\newmat4.obj
+         x64\Debug\newmat5.obj
+         x64\Debug\newmat6.obj
+         x64\Debug\newmat7.obj
+         x64\Debug\newmat8.obj
+         x64\Debug\newmat9.obj
+         x64\Debug\newmatex.obj
+         x64\Debug\newmatnl.obj
+         x64\Debug\newmatrm.obj
+         x64\Debug\solution.obj
+         x64\Debug\sort.obj
+         x64\Debug\submat.obj
+         x64\Debug\svd.obj
+         x64\Debug\State.obj
+         x64\Debug\BasicException.obj
+         x64\Debug\mkCButterworth.obj
+         x64\Debug\mkCDynamicMatrix.obj
+         x64\Debug\mkCGenericFilter.obj
+         x64\Debug\Mathematics.obj
+         x64\Debug\pca.obj
+         x64\Debug\BVHReader.obj
+         x64\Debug\BVHWriter.obj
+         x64\Debug\DataRW.obj
+         x64\Debug\MotionClip.obj
+         x64\Debug\MotionEditor.obj
+         x64\Debug\MotionJoint.obj
+         x64\Debug\SerialTextDataReader.obj
+         x64\Debug\spline.obj
+         x64\Debug\FClassifier.obj
+         x64\Debug\Feature.obj
+         x64\Debug\FeatureManager.obj
+         x64\Debug\FeatureParser.obj
+         x64\Debug\FTrainer.obj
+         x64\Debug\FWeakClassifierManager.obj
+         x64\Debug\HMMClassifier.obj
+         x64\Debug\InfoCalculator.obj
+         x64\Debug\PCARecognizer.obj
+         x64\Debug\PriFeatureClip.obj
+         x64\Debug\RuleManager.obj
+         x64\Debug\RuleNode.obj
+         x64\Debug\HMMModel.obj
+         x64\Debug\SwiftModel.obj
+         x64\Debug\config.obj
+         x64\Debug\debug_dialog.obj
+         x64\Debug\moc_HMMModel.obj
+         x64\Debug\moc_sign_language_recognition.obj
+         x64\Debug\moc_SwiftModel.obj
+         x64\Debug\qrc_sign_language_recognition.obj
+         x64\Debug\main.obj
+         x64\Debug\sign_language_recognition.obj
+         Sign_Language_Recognition.vcxproj -> C:\Users\shihaos\Documents\Visual Studio 2012\Projects\Sign_Language_Recognition\x64\Debug\Sign_Language_Recognition.exe
+     1>已完成生成项目“C:\Users\shihaos\Documents\Visual Studio 2012\Projects\Sign_Language_Recognition\Sign_Language_Recognition\Sign_Language_Recognition.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.77

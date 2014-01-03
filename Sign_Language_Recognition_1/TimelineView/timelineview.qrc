@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/TimelineView" >
+        <file>../../resources/button_timeline_back.png</file>
+        <file>../../resources/button_timeline_end.png</file>
+        <file>../../resources/button_timeline_head.png</file>
+        <file>../../resources/button_timeline_nextframe.png</file>
+        <file>../../resources/button_timeline_nextkey.png</file>
+        <file>../../resources/button_timeline_pause.png</file>
+        <file>../../resources/button_timeline_play.png</file>
+        <file>../../resources/button_timeline_prevframe.png</file>
+        <file>../../resources/button_timeline_prevkey.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{3ed6ac17-91e1-492b-bd47-0eb74b1d91eb}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{48ea453f-cf93-4226-a43d-1184cb831929}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="SwiftModel">
+      <UniqueIdentifier>{bc556ca7-c10e-47c1-a178-ab1bc1fd1d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MotionData">
+      <UniqueIdentifier>{b6ac9ff7-0801-4fd2-a8d2-da7d0b6782e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MathLib">
+      <UniqueIdentifier>{5a8c0098-08cf-4d9d-ba85-aba0c5909255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MathLib\Filter">
+      <UniqueIdentifier>{5a2aff98-7739-4e06-950c-c8004cbcbdea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MathLib\PCA">
+      <UniqueIdentifier>{9b9e2632-24f5-4371-88ec-dee689a27140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MotionRecognition">
+      <UniqueIdentifier>{d6022367-214a-49b1-a36a-129ab537529d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{7e65c201-7158-4677-8742-1ce180a06764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libhmm">
+      <UniqueIdentifier>{14ec88e8-a7d0-442f-83f5-2f8808e64e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libhmm\newmat">
+      <UniqueIdentifier>{83c451bb-d421-4796-b375-a5f7bef7f630}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sign_language_recognition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sign_language_recognition.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sign_language_recognition.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_sign_language_recognition.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SwiftModel\HMMModel.cpp">
+      <Filter>SwiftModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HMMModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HMMModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SwiftModel\SwiftModel.cpp">
+      <Filter>SwiftModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SwiftModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SwiftModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionData\BVHReader.cpp">
+      <Filter>MotionData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionData\BVHWriter.cpp">
+      <Filter>MotionData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionData\DataRW.cpp">
+      <Filter>MotionData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionData\MotionClip.cpp">
+      <Filter>MotionData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionData\MotionEditor.cpp">
+      <Filter>MotionData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionData\MotionJoint.cpp">
+      <Filter>MotionData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionData\SerialTextDataReader.cpp">
+      <Filter>MotionData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionData\spline.cpp">
+      <Filter>MotionData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MathLib\Mathematics.cpp">
+      <Filter>MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MathLib\BasicException.cpp">
+      <Filter>MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MathLib\Filter\mkCButterworth.cpp">
+      <Filter>MathLib\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MathLib\Filter\mkCDynamicMatrix.cpp">
+      <Filter>MathLib\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MathLib\Filter\mkCGenericFilter.cpp">
+      <Filter>MathLib\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MathLib\PCA\pca.cpp">
+      <Filter>MathLib\PCA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionRecognition\PCARecognizer.cpp">
+      <Filter>MotionRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionRecognition\PriFeatureClip.cpp">
+      <Filter>MotionRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionRecognition\RuleManager.cpp">
+      <Filter>MotionRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionRecognition\RuleNode.cpp">
+      <Filter>MotionRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionRecognition\FClassifier.cpp">
+      <Filter>MotionRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionRecognition\Feature.cpp">
+      <Filter>MotionRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionRecognition\FeatureManager.cpp">
+      <Filter>MotionRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionRecognition\FeatureParser.cpp">
+      <Filter>MotionRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionRecognition\FTrainer.cpp">
+      <Filter>MotionRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionRecognition\FWeakClassifierManager.cpp">
+      <Filter>MotionRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionRecognition\HMMClassifier.cpp">
+      <Filter>MotionRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MotionRecognition\InfoCalculator.cpp">
+      <Filter>MotionRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\config.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\debug_dialog.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\HMM.cpp">
+      <Filter>libhmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\k_mean.cpp">
+      <Filter>libhmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\mem.cpp">
+      <Filter>libhmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\State.cpp">
+      <Filter>libhmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\bandmat.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\cholesky.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\evalue.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\fft.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\hholder.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\jacobi.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\myexcept.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\newfft.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\newmat1.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\newmat2.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\newmat3.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\newmat4.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\newmat5.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\newmat6.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\newmat7.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\newmat8.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\newmat9.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\newmatex.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\newmatnl.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\newmatrm.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\solution.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\sort.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\submat.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libhmm\newmat\svd.cpp">
+      <Filter>libhmm\newmat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="sign_language_recognition.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sign_language_recognition.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sign_language_recognition.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SwiftModel\HMMModel.h">
+      <Filter>SwiftModel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\SwiftModel\SwiftModel.h">
+      <Filter>SwiftModel</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_sign_language_recognition.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionData\BVHReader.h">
+      <Filter>MotionData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionData\BVHWriter.h">
+      <Filter>MotionData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionData\DataRW.h">
+      <Filter>MotionData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionData\MotionClip.h">
+      <Filter>MotionData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionData\MotionEditor.h">
+      <Filter>MotionData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionData\MotionJoint.h">
+      <Filter>MotionData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionData\SerialTextDataReader.h">
+      <Filter>MotionData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionData\spline.h">
+      <Filter>MotionData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Math.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Mathematics.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Matrix3.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Matrix4.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\MatrixH.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\MatrixT.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Plane.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Quaternion.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Spline.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Vector2.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Vector3.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Vector4.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\VectorH.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\VectorR.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\VectorT.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\BasicException.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Euler.h">
+      <Filter>MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Filter\mkCButterworth.h">
+      <Filter>MathLib\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Filter\mkCDynamicMatrix.h">
+      <Filter>MathLib\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\Filter\mkCGenericFilter.h">
+      <Filter>MathLib\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\PCA\imatrix.h">
+      <Filter>MathLib\PCA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MathLib\PCA\pca.h">
+      <Filter>MathLib\PCA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionRecognition\InfoCalculator.h">
+      <Filter>MotionRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionRecognition\PCARecognizer.h">
+      <Filter>MotionRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionRecognition\PriFeatureClip.h">
+      <Filter>MotionRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionRecognition\RuleManager.h">
+      <Filter>MotionRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionRecognition\RuleNode.h">
+      <Filter>MotionRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionRecognition\FClassifier.h">
+      <Filter>MotionRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionRecognition\Feature.h">
+      <Filter>MotionRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionRecognition\FeatureManager.h">
+      <Filter>MotionRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionRecognition\FeatureParser.h">
+      <Filter>MotionRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionRecognition\FTrainer.h">
+      <Filter>MotionRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionRecognition\FWeakClassifierManager.h">
+      <Filter>MotionRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MotionRecognition\HMMClassifier.h">
+      <Filter>MotionRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\array_auto_ptr.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\config.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\debug.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\debug_dialog.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\def.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\floatdef.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\intdef.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\note.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\or_op.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Singleton.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\zany.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\HMM.h">
+      <Filter>libhmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\k_mean.h">
+      <Filter>libhmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\mem.h">
+      <Filter>libhmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\State.h">
+      <Filter>libhmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\newmat\controlw.h">
+      <Filter>libhmm\newmat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\newmat\include.h">
+      <Filter>libhmm\newmat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\newmat\myexcept.h">
+      <Filter>libhmm\newmat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\newmat\newmat.h">
+      <Filter>libhmm\newmat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\newmat\newmatap.h">
+      <Filter>libhmm\newmat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\newmat\newmatio.h">
+      <Filter>libhmm\newmat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\newmat\newmatnl.h">
+      <Filter>libhmm\newmat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\newmat\newmatrc.h">
+      <Filter>libhmm\newmat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\newmat\newmatrm.h">
+      <Filter>libhmm\newmat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\newmat\precisio.h">
+      <Filter>libhmm\newmat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libhmm\newmat\solution.h">
+      <Filter>libhmm\newmat</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\libhmm\newmat\rbd.css">
+      <Filter>libhmm\newmat</Filter>
+    </None>
+  </ItemGroup>
+</Project>

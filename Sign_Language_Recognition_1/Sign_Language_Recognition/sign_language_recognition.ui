@@ -1,0 +1,29 @@
+<UI version="4.0" >
+ <class>Sign_Language_RecognitionClass</class>
+ <widget class="QMainWindow" name="Sign_Language_RecognitionClass" >
+  <property name="objectName" >
+   <string notr="true">Sign_Language_RecognitionClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Sign_Language_Recognition</string>
+  </property>
+  <widget class="QMenuBar" name="menuBar" />
+  <widget class="QToolBar" name="mainToolBar" />
+  <widget class="QWidget" name="centralWidget" />
+  <widget class="QStatusBar" name="statusBar" />
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="sign_language_recognition.qrc"/>
+ </resources>
+ <connections/>
+</UI>
